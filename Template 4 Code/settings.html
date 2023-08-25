@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/framework.css">
+    <link rel="stylesheet" href="./css/temp4.css">
+    <link rel="stylesheet" href="./css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Template 4</title>
+</head>
+
+<body>
+    <div class="d-none" id="pageName">settings</div>
+    <div class="page d-flex bg-main-bg" id="page">
+        <!-- Side Start -->
+        <aside class="bg-white pa-1 p-realtive h-full main-shadow" id="aside">
+        </aside>
+        <!-- Content Of Main Start -->
+        <main class="page-main">
+            <header class="w-full d-flex bg-white justify-sb pa-05" id="header">
+            </header>
+            <!-- Content Of Main Start -->
+            <div class="settings page-content">
+                <h3 class="page-title">Settings</h3>
+                <div class="container d-grid-3c">
+                    <!-- SiteControl Start -->
+                    <div class="site-control box card d-flex-c justify-sb">
+                        <h3 class="box-h3">Site Control</h3>
+                        <p class="box-p grey-smaller">Control The Website Here</p>
+                        <div class="d-flex justify-sb mat-1 mab-1 ">
+                            <div class="text">
+                                <h3 class="f-size-09">Website Control</h3>
+                                <p class="grey-smaller">Open Website Controlling</p>
+                            </div>
+                            <label class="switcher">
+                                <input type="checkbox" checked>
+                                <div></div>
+                            </label>
+                        </div>
+                        <textarea class="rad-2 f-grow pa-05 c-second border rad-2 w-full f-size-07"
+                            placeholder="Close Message Here"></textarea>
+                    </div>
+                    <!-- SiteControl End -->
+                    <!-- General Info Start -->
+                    <div class="general box card">
+                        <h3 class="box-h3">General Info</h3>
+                        <p class="box-p grey-smaller">General Information About Your Account</p>
+                        <h4 class="c-grey f-size-09 mat-05">First Name</h4>
+                        <input type="text" value="Mohammed" class="first-name pa-05 grey-smaller mat-05 w-full"
+                            disabled>
+                        <h4 class="c-grey f-size-09 mat-05">Last Name</h4>
+                        <input type="text" value="Alpasha" class="Last-name pa-05 grey-smaller mat-05 w-full" disabled>
+                        <h4 class="c-grey f-size-09 mat-05">Email</h4>
+                        <div class="d-flex justify-sb  mat-05">
+                            <input type="email" value="MohammedAlhbyb@gmail.com"
+                                class="email rad-2  pa-1 grey-smaller bg-main-bg no-border w-full mar-1" disabled>
+                            <div class="button-alt c-main">Change</div>
+                        </div>
+                    </div>
+                    <!-- General Info End -->
+                    <!-- Security Info Start -->
+                    <div class="security box card d-flex-c justify-sb">
+                        <h3 class="box-h3">Security Info</h3>
+                        <p class="box-p grey-smaller">Security Information About Your Account</p>
+                        <div class="d-flex-c justify-sa f-grow">
+                            <div class="between-flex mat-1">
+                                <div class="text">
+                                    <h3 class="f-size-09">Password</h3>
+                                    <p class="pat-05 grey-smaller">Last change On 20/06/2023</p>
+                                </div>
+                                <div class="button">Change</div>
+                            </div>
+                            <div class="between-flex mat-1">
+                                <div class="text">
+                                    <h3 class="f-size-09">Two-Steps Auth</h3>
+                                    <p class="pat-05 grey-smaller">Enable Two Steps Verification</p>
+                                </div>
+                                <label class="switcher">
+                                    <input type="checkbox" checked>
+                                    <div></div>
+                                </label>
+                            </div>
+                            <div class="between-flex mat-1">
+                                <div class="text">
+                                    <h3 class="f-size-09">Devices</h3>
+                                    <p class="pat-05 grey-smaller">Check Your Acoount Devices</p>
+                                </div>
+                                <div class="button-alt bg-main-bg c-second">Devices</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Security Info End -->
+                    <!-- Social Media Info Start -->
+                    <div class="settings-social-media box card d-flex-c justify-sb">
+                        <h3 class="box-h3">Social Media Info</h3>
+                        <p class="box-p grey-smaller">Contact Us If There Is Any Problem</p>
+                        <div class="d-flex-c justify-sa f-grow mat-1">
+                            <div class="twitter d-flex justify-sb linked">
+                                <i class="fas fa-brands fa-twitter bg-main-bg f-size-09"></i>
+                                <input type="text" placeholder="Twitter Account"
+                                    class="f-grow bg-main-bg pa-05 c-grey f-size-07">
+                            </div>
+                            <div class="facebook d-flex justify-sb mat-05 linked">
+                                <i class="fas fa-brands fa-facebook bg-main-bg f-size-09"></i>
+                                <input type="text" placeholder="Twitter Account"
+                                    class="f-grow bg-main-bg pa-05 c-grey f-size-07">
+                            </div>
+                            <div class="youtube d-flex justify-sb mat-05">
+                                <i class="fas fa-brands fa-youtube bg-main-bg f-size-09"></i> <input type="text"
+                                    placeholder="Twitter Account" class="f-grow bg-main-bg pa-05 c-grey f-size-07">
+                            </div>
+                            <div class="telegram d-flex justify-sb mat-05">
+                                <i class="fas fa-brands fa-telegram bg-main-bg f-size-09"></i> <input type="text"
+                                    placeholder="Twitter Account" class="f-grow bg-main-bg pa-05 c-grey f-size-07">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Social Media Info End -->
+                    <!-- Widgets Control Start -->
+                    <div class="control-widgets box card d-flex-c justify-sb">
+                        <h3 class="box-h3">Widgets Control</h3>
+                        <p class="box-p grey-smaller">Show/Hide Widgets</p>
+                        <div class="d-flex-c justify-sa f-grow mat-1">
+                            <div class="pab-05 container">
+                                <input type="checkbox" id="one" checked>
+                                <label for="one">Quick Draft</label>
+                            </div>
+                            <div class="pat-05 pab-05 border-t container">
+                                <input type="checkbox" id="two" checked>
+                                <label for="two">Weekly Target</label>
+                            </div>
+                            <div class="pat-05 pab-05 border-t container">
+                                <input type="checkbox" id="three">
+                                <label for="three">Tickets Statistecs</label>
+                            </div>
+                            <div class="pat-05 pab-05 border-t container">
+                                <input type="checkbox" id="four" checked>
+                                <label for="four">Latest News</label>
+                            </div>
+                            <div class="pat-05 pab-05 border-t container">
+                                <input type="checkbox" id="five">
+                                <label for="five">Latest Tasks</label>
+                            </div>
+                            <div class="pat-05 pab-05 border-t container">
+                                <input type="checkbox" id="six" checked>
+                                <label for="six">Top Search Items</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Widgets control End -->
+                    <!-- Backup Manager Start -->
+                    <div class="backup-manager box card">
+                        <h3 class="box-h3">Backup Manager</h3>
+                        <p class="box-p grey-smaller">Control Backup Time And Places</p>
+                        <div class="mat-1 mab-1">
+                            <div class="time pab-05">
+                                <input type="radio" id="daily" name="time" checked>
+                                <label for="daily">Daily</label>
+                            </div>
+                            <div class="time pab-05">
+                                <input type="radio" id="weekly" name="time">
+                                <label for="weekly">Weekly</label>
+                            </div>
+                            <div class="time">
+                                <input type="radio" id="monthly" name="time">
+                                <label for="monthly">Monthly</label>
+                            </div>
+                        </div>
+                        <div class="container between-flex gap-1 c-grey">
+                            <input type="radio" id="server1" name="server" checked>
+                            <div class="places bg-white border rad-2 txt-center w-full h-full">
+                                <label for="server1"><i class="fas fa-cloud fa-2x"></i>
+                                    <p class="mat-05 f-size-07">Pasha Cloud</p>
+                                </label>
+                            </div>
+                            <input type="radio" id="server2" name="server">
+                            <div class="places bg-white border rad-2 txt-center w-full h-full">
+                                <label for="server2"><i class="fas fa-database fa-2x"></i>
+                                    <p class="mat-05 f-size-07">Pasha Base</p>
+                                </label>
+                            </div>
+                            <input type="radio" id="server3" name="server">
+                            <div class="places bg-white border rad-2 txt-center w-full h-full">
+                                <label for="server3"><i class="fas fa-server fa-2x"></i>
+                                    <p class="mat-05 f-size-07">Pasha Server</p>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Backup Manager End -->
+            </div>
+            <!-- Content Of Main End -->
+        </main>
+        <!-- Main Content End -->
+    </div>
+    <script src="content.js"></script>
+</body>
+
+</html>
