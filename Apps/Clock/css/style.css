@@ -1,0 +1,493 @@
+.container {
+  width: 75%;
+  position: relative;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 993px) {
+  .container {
+    width: 970px;
+  }
+}
+.theme1 {
+  --color-one: #f67280;
+  --color-two: #c06c84;
+  --color-three: #f67280;
+  --color-four: #355c7d;
+  --shadow-color: #333;
+}
+
+.theme2 {
+  --color-one: #364f6b;
+  --color-four: #3fc1c9;
+  --color-three: #364f6b;
+  --color-two: #fc5185;
+  --shadow-color: #808080;
+}
+
+.theme2 {
+  --color-two: #3fc1c9;
+  --color-four: #364f6b;
+  --color-three: #f5f5f5;
+  --color-one: #fc5185;
+  --shadow-color: #808080;
+}
+.theme3 {
+  --color-four: #222831;
+  --color-two: #393e46;
+  --color-one: #00adb5;
+  --color-three: #00adb5;
+  --shadow-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+.clockTimelgrPomo {
+  position: relative;
+  width: fit-content;
+  height: 100%;
+  padding: 0 0.5em;
+  margin: 0 auto;
+}
+
+hr {
+  background-color: var();
+  height: 0.09em;
+}
+.switch {
+  background-color: #355b7df3;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5em auto;
+  padding: 0.5em;
+}
+
+.timeLogger,
+.pomodoro {
+  width: fit-content;
+  color: #ddd;
+  font-weight: bold;
+  padding: 0.3em;
+  border-radius: 0.4em;
+  font-size: 0.5rem;
+  width: 45%;
+  display: inline;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px var(--shadow-color);
+  background-color: var(--color-two);
+}
+
+.switch span {
+  width: fit-content;
+  padding: 0.5em 2em;
+}
+
+.switch span:first-child {
+  margin-right: 3em;
+}
+
+.switch .active {
+  box-shadow: 0 0 1px 0.4px var(--shadow-color);
+  background-color: var(--color-four);
+}
+
+.timeLoggerContainer {
+  height: fit-content;
+  display: none;
+}
+
+.switch,
+.pomodoroContainer {
+  border-radius: 0.9em;
+}
+.clockContainer {
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+}
+.clockContainer header {
+  color: #ddd;
+  font-family: monospace;
+  font-size: 0.7rem;
+  margin: 0em auto 0.5em;
+  text-align: center;
+}
+.params {
+  display: flex;
+  justify-content: space-between;
+}
+.clock span {
+  color: #eee;
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.1em;
+  border-radius: 0.2em;
+}
+
+.clock span:first-of-type {
+  background-color: var(--color-one);
+}
+
+.clock span:nth-of-type(2) {
+  background-color: var(--color-two);
+}
+
+.clock span:last-of-type {
+  background-color: var(--color-one);
+}
+
+.control {
+  margin: 1em auto;
+  font-weight: bold;
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.control > span {
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  cursor: pointer;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 0 0px 2px 1px var(--shadow-color);
+  font-size: small;
+}
+
+.control .start {
+  background-color: var(--color-one);
+}
+
+.control .pause {
+  background-color: var(--color-two);
+}
+
+.control .reset {
+  background-color: var(--color-one);
+}
+
+.list {
+  padding: 0.5em;
+  width: 26%;
+}
+
+.list .task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list span {
+  display: block;
+  font-size: 0.7rem;
+  margin-top: 0.5em;
+  padding: 0.3em;
+  color: #ddd;
+  font-family: monospace;
+  text-align: center;
+}
+
+.list .task .taskName {
+  background-color: var(--color-one);
+  width: 60%;
+  text-align: left;
+  margin-right: 0.5em;
+  padding-left: 1em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  padding: 0.3em 0.7em;
+  line-height: 1/3em;
+}
+.adder {
+  display: flex;
+  margin-top: 1em;
+}
+
+.list .addTask,
+.delTask,
+#inputTask {
+  text-align: center;
+  min-width: 10%;
+  cursor: pointer;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 0 0px 2px 0.6px var(--shadow-color);
+}
+.list .addTask {
+  background-color: var(--color-one);
+  padding: 0.35em;
+  color: #ddd;
+  float: right;
+  font-family: monospace;
+  font-size: 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.6em;
+}
+
+.delTask {
+  max-width: 30%;
+  padding: 0.5em;
+  font-size: 0.5rem;
+  display: none;
+  font-family: monospace;
+  font-weight: bold;
+  background-color: var(--color-two);
+}
+
+.clock span:active,
+.control span:active,
+.taskName:active,
+.addTask:active,
+.delTask:active {
+  transform: scale(0.9, 0.9);
+  transition: scale, 0.1s;
+}
+
+.taskName:active {
+  transition: scale, 0.2s;
+}
+
+#inputTask {
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: var(--color-four);
+  border: none;
+  outline: none;
+  background-color: #eee;
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+  padding-left: 0.4em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.pomodoroContainer {
+  color: #eee;
+  display: none;
+}
+
+.pomodoroContainer .terms,
+.pomodoroContainer .pomoLogs h1 {
+  width: fit-content;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0 auto 0.5em;
+  text-align: center;
+}
+
+.terms div {
+  font-size: 0.5rem;
+  margin-bottom: 0.5em;
+}
+
+.terms span {
+  cursor: pointer;
+  color: #eee;
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  font-size: 1rem;
+}
+
+.terms span:first-of-type {
+  background-color: var(--color-one);
+}
+
+.terms span:nth-of-type(2) {
+  background-color: var(--color-two);
+}
+
+.terms span:last-of-type {
+  background-color: var(--color-one);
+}
+
+.terms span:active {
+  transform: scale(0.9, 0.9);
+  transition: scale, 0.1s;
+}
+
+.pomoLogs div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pomoLogs div:not(:last-child) {
+  margin-bottom: 0.3em;
+}
+
+.pomoLogs div span:first-of-type,
+.pomoLogs div span:last-of-type {
+  background-color: var(--color-one);
+  display: inline-block;
+  max-width: fit-content;
+  font-size: 0.5rem;
+  padding: 0.5em;
+  border-radius: 0.3em;
+}
+
+.pomoLogs div span:first-of-type {
+  text-align: left;
+  min-width: 70%;
+}
+
+.pomoLogs div span:last-of-type {
+  min-width: 28%;
+  text-align: center;
+  background-color: var(--color-two);
+}
+
+.pomodoroContainer .pomoLogs h1 {
+  margin-top: 1em;
+  font-size: 0.7rem;
+}
+
+.themes {
+  z-index: 2;
+  width: 50vh;
+  height: calc(100vh + 0.5em);
+  background-color: var(--color-four);
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: #eee;
+  padding: 2.2em 1em 0 0;
+  position: absolute;
+  top: -0.5em;
+  left: -100%;
+  transition: 0.5s;
+}
+.themes.view {
+  left: 0;
+}
+
+.block {
+  display: block;
+  left: 0;
+}
+
+.container .bars {
+  font-size: 0.7rem;
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  cursor: pointer;
+  z-index: 1000;
+  transition: 0.5s;
+}
+.container .bars.light {
+  color: white;
+}
+.themes .themesTitle,
+.themes .Contact {
+  margin-top: 1em;
+  margin-bottom: 0;
+  margin-left: 1em;
+  font-size: 0.5rem;
+}
+.themes > div > div {
+  margin: 1em 3em;
+  width: 80%;
+  border-radius: 0.2em;
+  font-size: 0.4rem;
+  padding: 1em;
+  cursor: pointer;
+  background-color: var(--color-one);
+  border-left: 3px solid var(--color-two);
+}
+.themes > div > div:hover {
+  color: #333;
+}
+.themes > div > div:active {
+  transform: scale(0.8);
+  transition: scale, 0.3s;
+}
+.themes > div .theme1btn {
+  margin-top: 1em;
+}
+.themes .Contact {
+  padding: 0;
+}
+.themes section {
+  position: relative;
+}
+.themes section .socialContainer {
+  position: absolute;
+  top: 10%;
+  left: 13%;
+  display: flex;
+  text-align: center;
+  width: 80%;
+  height: fit-content;
+  justify-content: space-around;
+}
+.themes section a {
+  padding: 0;
+  margin-top: 2.5em;
+}
+.themes a {
+  display: inline-block;
+  color: #eee;
+  font-size: 0.4rem;
+  text-decoration: none;
+}
+
+.themes a:hover {
+  color: var(--color-one);
+}
+
+.themes .copyright {
+  font-size: 0.3rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-family: monospace;
+  /* position: absolute; */
+  margin: 7em auto;
+  text-align: center;
+}
+
+.clock,
+.list,
+.switch,
+.pomodoroContainer {
+  margin: 0.5em auto;
+  width: fit-content;
+  background: var(--color-four);
+  padding: 0.5em;
+  border: 1px solid var(--color-one);
+  box-shadow: 0 0px 4px 2px var(--shadow-color);
+  font-weight: bold;
+  border-radius: 0.5em;
+}

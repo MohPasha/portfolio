@@ -1,0 +1,61 @@
+<!-- بسم الله الرحمن الرحيم -->
+<!-- انتهى في الخامس من المحرم 1445 -->
+<!-- Ended In 20/08/2023 23:08 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="info container">
+        <section class="name">Hello: <span></span></section>
+        <section class="time"></section>
+        <section class="tries">Wrong Tries: <span>0</span></section>
+        <span class="curLevel"></span>
+    </header>
+    <main class="game container">
+    </main>
+    <div class="messages">
+        <i class="far fa-user open"></i>
+        <div class="content">
+            <img src="images/logo colored.png" alt="">
+            <h3>Welcome To Memory Game</h3>
+            <div class="levels">
+                <input type="radio" name="level" id="easy" checked>
+                <label for="easy">Easy</label>
+                <input type="radio" name="level" id="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" name="level" id="hard">
+                <label for="hard">Hard</label>
+            </div>
+            <input type="text" placeholder="Insert Your Name" value="">
+            <span>Start</span>
+        </div>
+    </div>
+    <div class="profile">
+        <i class="fas fa-times close"></i>
+        <h3 class="box-h3">Developed By: <span>Pasha </span><span>Developer</span></h3>
+        <p class="box-p">20/08/2023</p>
+        <h4>Made With:</h4>
+        <div class="skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Javascript</span>
+            <span>Font Awesomes</span>
+        </div>
+        <a href="https://mohpasha.github.io/portfolio/">Our Portfolio <i class="fas fa-external-link"></i></a>
+        <audio src="audio/success.mp3" class="success"></audio>
+        <audio src="audio/failure.mp3" class="failed"></audio>
+        <audio src="audio/win.mp3" class="win"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

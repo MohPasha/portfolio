@@ -1,0 +1,68 @@
+<!-- بسم الله الرحمن الرحيم -->
+<!-- انتهى السادس من صفر 1445 -->
+<!-- Ended  in 22/08/2023 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz container">
+        <header class="info theme">
+            <section class="category">القسم: <span>عام</span></section>
+            <section class="qCount">اﻷسئلة المتبقية: <span></span></section>
+        </header>
+        <main class="content theme">
+            <div class="question"></div>
+            <div class="answers"></div>
+            <input type="button" value="أرسل" class="submit">
+        </main>
+        <footer class="bullets theme">
+            <div class="spans"></div>
+            <div class="timer"></div>
+        </footer>
+        <div class="results theme none">
+        </div>
+
+    </div>
+    <i class="far fa-user open" id="openpashaProfile"></i>
+    <div class="pashaProfile ">
+        <div class="content">
+            <i class="fas fa-times close"></i>
+            <h3 class="box-h3">تطوير: <span>أبي جعفر </span><span>محمد الحبيب</span></h3>
+            <p class="box-p">06/02/1445</p>
+            <p class="box-p">22/08/2023</p>
+            <h4>التقنيات المستخدمة:</h4>
+            <div class="skills">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Javascript</span>
+                <span>Font Awesomes</span>
+            </div>
+            <a href="#">معرض أعمالنا <i class="fas fa-external-link"></i></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Control On pashaProfile Menu
+        let pashaProfile = document.querySelector(".pashaProfile");
+        let closeBtn = document.querySelector(".pashaProfile .close");
+        let openBtn = document.querySelector("#openpashaProfile");
+
+        openBtn.onclick = () => {
+            pashaProfile.classList.toggle("show");
+        };
+        closeBtn.onclick = () => {
+            pashaProfile.classList.remove("show");
+        };
+    </script>
+</body>
+
+</html>

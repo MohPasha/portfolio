@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+	<title>Clock</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="theme1">
+	<div class="container">
+		<!-- Themes -->
+		<i class="fas fa-bars bars"></i>
+		<div class="themes noTouch" id="themes">
+			<p class="themesTitle noTouch">- Themes:</p>
+			<div class="themesDiv noTouch ">
+				<div class="theme1btn theme1">Legacy</div>
+				<div class="theme2btn theme2">Blue Red</div>
+				<div class="theme3btn theme3">Black Blue</div>
+			</div>
+			<section class="noTouch">
+				<div class="Contact noTouch">- Contact Us:</div>
+				<div class="socialContainer noTouch">
+					<a href="#">WhatsApp</a>
+					<a href="#">FaceBook</a>
+					<a href="#">Telegram</a>
+				</div>
+			</section>
+			<div class="copyright noTouch">Pasha Programmer &copy; 2023</div>
+		</div>
+		<!-- MAIN CONTAINER-->
+		<div class="clockTimelgrPomo">
+			<div class="switch">
+				<span class="timeLogger">Time Logger</span>
+				<span class="pomodoro">Pomodoro</span>
+			</div>
+			<!-- Clock -->
+			<div class="clockContainer">
+				<div class="clock">
+					<header>Time Now</header>
+					<div class="params">
+						<span class=hours>00</span>
+						<span class=minutes>00</span>
+						<span class=seconds>00</span>
+					</div>
+				</div>
+				<!-- controls -->
+				<div class="control">
+					<span class="start">Start</span>
+					<span class="pause">Pause</span>
+					<span class="reset">Reset</span>
+				</div>
+				<span class="delTask">Delete Task</span>
+			</div>
+			<!-- Time Logger -->
+			<div class="timeLoggerContainer">
+				<div class="list">
+					<div class="tasks">
+					</div>
+					<div class="adder">
+						<input type="text" name="" id="inputTask" placeholder="Task Name">
+						<span class="addTask">Add Task</span>
+					</div>
+				</div>
+			</div>
+			<!-- Pomodoro -->
+			<div class="pomodoroContainer">
+				<div class="terms">
+					<div class="choose">Choose The Term</div>
+					<span class="short">25</span>
+					<span class="medium">50</span>
+					<span class="long">75</span>
+				</div>
+				<hr>
+				<div class="pomoLogs">
+					<h1>Today's Terms Log</h1>
+					<div class="shortCount"><span class="name">Short - 25</span><span class="count">00</span></div>
+					<div class="mediumCount"><span class="name">Medium - 50</span><span class="count">00</span></div>
+					<div class="longCount"><span class="name">Long - 75</span><span class="count">00</span></div>
+					<div class="breaksCount"><span class="name">Breaks</span><span class="count">00</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>

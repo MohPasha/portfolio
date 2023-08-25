@@ -1,0 +1,209 @@
+:root {
+  --transition-delay: 0.5s;
+  --color-blue: #00adb5ff;
+  --color-black: #393e46f7;
+  --color-grey: #777;
+  --color-light: #ffffff;
+  --color-trans: rgba(0, 172, 181, 0.514);
+  --backgound: #f5f5f5;
+  --main-pad-mar: 4em;
+}
+@media (max-width: 991px) {
+  .subscribe .email {
+    margin: 0 auto;
+  }
+  .subscribe p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 767px) {
+  .subscribe p {
+    width: 100%;
+    display: block;
+    margin: 1em 0 0;
+  }
+}
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+@media (max-width: 767px) {
+  /* components */
+  .special-heading {
+    font-size: 2rem;
+  }
+  header .container {
+    width: 97%;
+    display: block;
+    padding: 0.5em 0;
+    border-bottom-width: 2px;
+  }
+  header .container img {
+    margin-left: 1em;
+  }
+  header .container ul {
+    margin: 0em;
+    width: 100vw;
+    background-color: #333333d2;
+    padding: 0 0 0em 0;
+    margin-left: -1.5vw;
+    margin-top: 0.5em;
+    position: absolute;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  header .container ul.none {
+    overflow: hidden;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+  header .container ul li {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1em 0 1em 0.7em;
+    color: white;
+    font-size: 0.7rem;
+    border-bottom: 1px solid #7777777e;
+  }
+  header .container ul li a {
+    color: white;
+    display: block;
+  }
+  header .container ul li.active {
+    border-bottom-width: 1px;
+  }
+  header .container ul li.active a {
+    color: var(--color-blue);
+    font-weight: bold;
+  }
+  header .container ul li:last-of-type {
+    border-bottom: none;
+  }
+  header .container i:first-of-type {
+    display: none;
+  }
+  header .container i:last-of-type {
+    display: block;
+    position: absolute;
+    top: 0.7em;
+    font-size: 1.2rem;
+    right: 1em;
+    cursor: pointer;
+  }
+  /* Header End */
+  /* landing start */
+  .landing .text-back {
+    width: 100%;
+    display: block;
+    /* padding: ; */
+  }
+
+  .landing .text-back .text {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .landing .text-back .text p {
+    width: 100%;
+  }
+  .landing i {
+    display: none;
+  }
+  .landing .bullets li {
+    padding: 0.2em;
+    width: fit-content;
+    height: fit-content;
+  }
+  /* landing end */
+  /* services start */
+  .services-content {
+    display: block;
+    text-align: center;
+  }
+  .services-content .serv {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .services-content .serv i {
+    margin-bottom: 0.5em;
+  }
+  /* services end */
+  /* features start */
+  .features .text {
+    width: 100%;
+  }
+  .features img {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* features end */
+  /* portfolio start */
+  .portfolio .genres li {
+    padding: 0.5em 0.5em;
+  }
+  /* portfolio end */
+  /* about start */
+  .about .img {
+    width: 90%;
+    left: 45%;
+    top: 50%;
+  }
+  .about img {
+    bottom: -10em;
+    margin-top: -10em;
+  }
+  /* about end */
+  /* statistecs start */
+  .statistecs .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+  .statistecs .container .stat {
+    font-size: smaller;
+  }
+  .statistecs .container .stat .text p {
+    font-size: 0.5rem;
+  }
+  .statistecs .container .stat .text h3 {
+    font-size: 1rem;
+    margin: 0.5em 0;
+  }
+  .testimonials-skills .container {
+    display: block;
+  }
+  .testimonials-skills .testimonials {
+    margin-bottom: 3em;
+  }
+  .testimonials-skills .testimonials .box {
+    border-radius: 0.2em;
+    font-size: 0.8rem;
+    padding: 0.5em;
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px #d4d4d485;
+  }
+  /* statistecs end */
+  .contact .container .contact-content {
+    display: block;
+  }
+  .contact .container .col:last-of-type {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .contact .container {
+    font-size: 0.7rem;
+  }
+
+  .subscribe .container {
+    font-size: 0.7rem;
+    display: block;
+    padding: 0;
+  }
+}

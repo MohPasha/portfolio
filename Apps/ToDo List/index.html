@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasha ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="todo-list container">
+        <header class="task_add">
+            <div class="content">
+                <input type="text" name="add" id="input" placeholder="Insert Task Name" required>
+                <span class="plus">+</span>
+            </div>
+            <p id="error">* Please Insert Some Thing</p>
+        </header>
+
+        <main class="tasks-container">
+        </main>
+
+        <footer class="task-status">
+            <div class="stats">
+                <span class="tasks-count">Tasks <span>0</span></span>
+                <span class="completed">Completed <span>0</span></span>
+            </div>
+            <div class="btns">
+                <span class="clear-tasks">Clear All Tasks</span>
+                <span class="clear-completed">Clear Completed</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

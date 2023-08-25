@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+
+.container {
+  background-color: #eee;
+  padding: 20px;
+  width: 75%;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 85%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 993px) {
+  .container {
+    width: 970px;
+  }
+}
+.container input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+.spans {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 0.5em;
+}
+
+.spans span {
+  background-color: #009688;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: -2px 2px 5px #979696;
+  text-align: center;
+}
+
+.spans .delete {
+  background-color: rgb(255, 166, 0);
+}
+.spans .clear {
+  background-color: red;
+}
+
+.results {
+  margin-top: 15px;
+  width: 100%;
+  background-color: white;
+  border: 1px dashed #eee;
+  text-align: center;
+  padding: 15px;
+}
+
+.results span span {
+  color: #009866;
+  font-weight: bold;
+}
+
+hr {
+  color: #eee;
+  box-shadow: 1px 1px 5px 1px #eee;
+}

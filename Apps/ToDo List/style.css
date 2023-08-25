@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 75%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 85%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 993px) {
+  .container {
+    width: 970px;
+  }
+}
+.todo-list {
+  background-color: #eee;
+}
+
+.todo-list header {
+  background-color: #009866;
+  padding: 1em;
+}
+
+.todo-list header .content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 84px;
+  overflow: hidden;
+}
+
+.todo-list header #input {
+  border: none;
+  padding: 0.5em;
+  background-color: rgba(103, 214, 177, 0.808);
+  color: white;
+  font-weight: bold;
+  /* max-width: 90%; */
+  display: block;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.todo-list header #input:focus {
+  outline: none;
+}
+
+.todo-list header .plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  color: #009866;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* border-radius: 50%; */
+  width: 46px;
+  height: 100%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+@media (max-width: 767px) {
+  .todo-list header .content {
+    display: block;
+    height: fit-content;
+    position: relative;
+    height: 40px;
+  }
+  .todo-list header .content input {
+    width: 100%;
+  }
+  .todo-list header .content input:valid ~ .plus {
+    visibility: visible;
+  }
+  .todo-list header .content .plus {
+    margin: auto;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
+  .todo-list header .content .plus:hover {
+    transform: none;
+  }
+}
+
+.todo-list header p {
+  color: rgb(255, 0, 0);
+  background-color: #ffffffbe;
+  border-radius: 0.2em;
+  width: fit-content;
+  margin-bottom: -10px;
+  font-size: 0.7em;
+  border: none;
+  padding: 0.4em;
+  box-shadow: 1px 1px 2px 2px rgba(255, 255, 255, 0.349);
+  font-size: 0.5em;
+  font-weight: bold;
+  display: none;
+}
+
+.todo-list main {
+  padding: 1em;
+}
+
+.todo-list main div {
+  padding: 0.5em;
+  max-width: 100%;
+  background-color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.todo-list main div:not(last-child) {
+  margin-bottom: 0.5em;
+}
+.no-task {
+  color: gray;
+}
+
+.todo-list main .task {
+  cursor: pointer;
+}
+
+.todo-list main .task .delete {
+  background-color: red;
+  font-size: 1rem;
+  padding: 0.2em;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.3em;
+  cursor: pointer;
+  float: right;
+}
+
+.todo-list footer {
+  background-color: #009866;
+  padding: 0.5em;
+  color: #eee;
+  font-weight: bold;
+}
+
+.todo-list footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+.todo-list footer div:last-of-type {
+  margin-top: 0.5em;
+}
+.todo-list footer span span,
+.todo-list footer .clear-completed,
+.todo-list footer .clear-tasks {
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.1em 0.2em;
+  border-radius: 0.2em;
+  box-shadow: 0.7px 0.7px 3px 0.2px rgba(0, 0, 0, 0.541);
+}
+
+.todo-list footer .tasks-count span {
+  background-color: #009866;
+}
+.todo-list footer .clear-tasks,
+.todo-list footer .clear-completed {
+  background-color: white;
+  color: #009866;
+}
+
+.todo-list footer .clear-completed,
+.todo-list footer .clear-tasks {
+  cursor: pointer;
+}
+
+.todo-list footer .clear-completed:hover,
+.todo-list footer .clear-tasks:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+
+.todo-list footer .completed span {
+  background-color: red;
+}
+
+.finished {
+  text-decoration: line-through;
+  color: gray;
+}

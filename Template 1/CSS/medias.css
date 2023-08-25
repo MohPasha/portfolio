@@ -1,0 +1,69 @@
+@media (max-width: 1199px) {
+  .services .services-parent .col:last-of-type {
+    display: none;
+  }
+  .services .services-parent .col {
+    width: 50%;
+  }
+  .services .services-parent .serv .text h3 {
+    font-size: 1.2rem;
+  }
+  .services .services-parent .serv .text p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .about .about-parent .col:first-of-type::after,
+  .about .about-parent .col:first-of-type:before {
+    display: none;
+  }
+
+  .about .about-parent {
+    display: block;
+  }
+  .about .about-parent .col img {
+    width: 90%;
+    margin: 0 auto 2em;
+    display: block;
+  }
+  .about .about-parent .col p:first-of-type,
+  .about .about-parent .col p:last-of-type {
+    margin: 0.4em 0;
+    line-height: 1.4rem;
+  }
+  .about .about-parent .col p:first-of-type {
+    margin-bottom: 2em;
+  }
+  .contact .contact-parent {
+    text-align: center;
+  }
+  .contact .contact-parent h3,
+  .contact .contact-parent > a,
+  .contact .contact-parent .social,
+  .contact .contact-parent .social i {
+    font-size: 01rem;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 718px) {
+  .services .services-parent .col .serv {
+    display: block;
+    margin: 3em 0.5em;
+  }
+  .services .services-parent .serv .text h3 {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.5em;
+  }
+  .services .services-parent .serv .text p {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  .services .services-parent .col {
+    width: 100%;
+  }
+  .services .services-parent {
+    display: block;
+  }
+}
+/*  */
