@@ -1,0 +1,925 @@
+{
+  "Aaroudh": [
+    {
+      "sectionName": "كتب العروض",
+      "content": [
+        {
+          "name": "ميزان الذهب",
+          "author": "أحمد الهاشمي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "علم العروض",
+          "author": "عبد العزيز عتيق",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    }
+  ],
+  "Adab": [
+    {
+      "sectionName": "كتب اﻷدب",
+      "content": [
+        {
+          "name": "كتاب الحيوان",
+          "author": "أبو عمرو الجاحظ",
+          "links": [
+            "https://archive.org/download/hiwan0/hiwan0.pdf",
+            "https://archive.org/download/hiwan0/hiwan1.pdf",
+            "https://archive.org/download/hiwan0/hiwan1p.pdf",
+            "https://archive.org/download/hiwan0/hiwan2.pdf",
+            "https://archive.org/download/hiwan0/hiwan3.pdf",
+            "https://archive.org/download/hiwan0/hiwan4.pdf",
+            "https://archive.org/download/hiwan0/hiwan5.pdf",
+            "https://archive.org/download/hiwan0/hiwan6.pdf",
+            "https://archive.org/download/hiwan0/hiwan7.pdf",
+            "https://archive.org/download/hiwan0/hiwan8.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "البيان والتبيين",
+          "author": "أبو عمرو الجاحظ",
+          "links": [
+            "https://archive.org/download/zidane3943_hotmail_20160128_0428/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20%D9%88%D8%A7%D9%84%D8%AA%D8%A8%D9%8A%D9%8A%D9%86.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "الكامل في اللغة واﻷدب",
+          "author": "أبو العباس المبرد",
+          "links": [
+            "https://archive.org/download/20201125_20201125_1556/%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%20..%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%20%2C%20%D8%A3%D8%A8%D9%88%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D9%8A%D8%B2%D9%8A%D8%AF%20%D8%A7%D9%84%D9%85%D8%A8%D8%B1%D8%AF.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "عيون اﻷخبار",
+          "author": "ابن قتيبة الدينوري",
+          "links": [
+            "https://archive.org/download/UyoonAkhbar/%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-00.pdf",
+            "https://archive.org/download/UyoonAkhbar/%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-01.pdf",
+            "https://archive.org/download/UyoonAkhbar/%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-02.pdf",
+            "https://archive.org/download/UyoonAkhbar/%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-03.pdf",
+            "https://archive.org/download/UyoonAkhbar/%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-05.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "العقد الفريد",
+          "author": "ابن  عبد ربه الأندلسي",
+          "links": [
+            "https://archive.org/download/ef5_jp2/ef0.pdf",
+            "https://archive.org/download/ef5_jp2/ef1.pdf",
+            "https://archive.org/download/ef5_jp2/ef1p.pdf",
+            "https://archive.org/download/ef5_jp2/ef2.pdf",
+            "https://archive.org/download/ef5_jp2/ef3.pdf",
+            "https://archive.org/download/ef5_jp2/ef4.pdf",
+            "https://archive.org/download/ef5_jp2/ef5.pdf",
+            "https://archive.org/download/ef5_jp2/ef6.pdf",
+            "https://archive.org/download/ef5_jp2/ef7.pdf",
+            "https://archive.org/download/ef5_jp2/ef8.pdf",
+            "https://archive.org/download/ef5_jp2/ef9.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "كتاب اﻷمالي",
+          "author": "أبو علي القالي",
+          "links": [
+            "https://archive.org/download/waq44056/00_44056.pdf",
+            "https://archive.org/download/waq44056/01-02_44056.pdf",
+            "https://archive.org/download/waq44056/01-02_44056p.pdf",
+            "https://archive.org/download/waq44056/03_44057.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "كتاب اﻷغاني",
+          "author": "أبو الفرج اﻷصفهاني",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "زهر اﻵداب",
+          "author": "الحصري",
+          "links": [
+            "https://archive.org/download/4_20200425/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8%D8%8C%20%D8%AC1.pdf",
+            "https://archive.org/download/4_20200425/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8%D8%8C%20%D8%AC3.pdf",
+            "https://archive.org/download/4_20200425/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8%D8%8C%20%D8%AC4.pdf",
+            "https://archive.org/download/4_20200425/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8%D8%8C%20%D8%AC5%20%D8%A7%D9%84%D9%81%D9%87%D8%A7%D8%B1%D8%B3.pdf",
+            "https://archive.org/download/4_20200425/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A2%D8%AF%D8%A7%D8%A8/%D8%B2%D9%87%D8%B1%20%D8%A7%D9%84%D8%A7%D9%8E%D8%AF%D8%A7%D8%A8%D8%8C%20%D8%AC2.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "نهاية اﻷرب",
+          "author": "النويري",
+          "links": ["", "", "", "", "", ""],
+          "status": "n-available"
+        },
+        {
+          "name": "صبح اﻷعشى",
+          "author": "القلقشندي",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "نفح الطيب",
+          "author": "المقري",
+          "links": [1, 2],
+          "status": "n-available"
+        }
+      ]
+    }
+  ],
+  "Balaga": [
+    {
+      "sectionName": "كتب البلاغة",
+      "content": [
+        {
+          "name": "دلائل اﻹعجاز",
+          "author": "اﻹمام عبد القاهر الجرجاني",
+          "links": [
+            "https://archive.org/download/ar114rhet39/%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B1%D8%AC%D8%A7%D9%86%D9%8A-%D8%AF%D9%84%D8%A7%D8%A6%D9%84%20%D8%A7%D9%84%D8%A5%D8%B9%D8%AC%D8%A7%D8%B2.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "أسرار البلاغة",
+          "author": "اﻹمام عبد القاهر الجرجاني",
+          "links": [
+            "https://archive.org/download/ar114rhet38/%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B1%D8%AC%D8%A7%D9%86%D9%8A-%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "مفتاح العلوم",
+          "author": "أبو بعقوب السكاكي",
+          "links": [
+            "https://archive.org/download/ar114rhet12/%D8%A3%D8%A8%D9%88%20%D9%8A%D8%B9%D9%82%D9%88%D8%A8%20%D8%A7%D9%84%D8%B3%D9%83%D8%A7%D9%83%D9%8A-%D9%85%D9%81%D8%AA%D8%A7%D8%AD%20%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "تلخيص المفتاح",
+          "author": "الخطيب القزويني",
+          "links": [
+            "https://archive.org/download/talkhis_al-miftah/TMU_00.pdf",
+            "https://archive.org/download/talkhis_al-miftah/TMU_01.pdf",
+            "https://archive.org/download/TalkhisBalagha/TalkhisBalagha.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "اﻹيضاح شرح تلخيص المفتاح",
+          "author": "الخطيب القزويني",
+          "links": [
+            "https://archive.org/download/EadahBalagha/EadahBalagha.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "المطول شرح التلخيص",
+          "author": "سعد الدين التفتازاني",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "عروس اﻷفراح شرح التلخيص",
+          "author": "بهاء الدين السبكي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "الطراز شرح التلخيص",
+          "author": "العلوي",
+          "links": [
+            "https://archive.org/download/1584pdf_201912/1584%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%82%D8%B1%D8%A7%20%D8%A7%D9%88%D9%86%D9%84%D8%A7%D9%8A%D9%86%20%20%20%20pdf%20%20%20%D8%A7%D9%84%D8%B7%D8%B1%D8%A7%D8%B2%20%D8%A7%D9%84%D9%85%D8%AA%D8%B6%D9%85%D9%86%20%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9%20%D9%88%D8%B9%D9%84%D9%88%D9%85%20%D8%AD%D9%82%D8%A7%D8%A6%D9%82%20%D8%A7%D9%84%D8%A7%D8%B9%D8%AC%D8%A7%D8%B2%20-%20%D9%8A%D8%AD%D9%8A%D9%89%20%D8%A8%D9%86%20%D8%AD%D9%85%D8%B2%D8%A9%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%8A%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "مجموع شروح التلخيص",
+          "author": "مجموعة مؤلفين",
+          "links": [
+            "https://archive.org/download/shtlkis/shtlkis00.pdf",
+            "https://archive.org/download/shtlkis/shtlkis01.pdf",
+            "https://archive.org/download/shtlkis/shtlkis02.pdf",
+            "https://archive.org/download/shtlkis/shtlkis03.pdf",
+            "https://archive.org/download/shtlkis/shtlkis04.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "البلاغة الواضحة مع دليلها",
+          "author": "علي الجارم ومصطفى أمين",
+          "links": [
+            "https://archive.org/download/Alpala3aAlwadeha1/%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9%20%D8%A7%D9%84%D9%88%D8%A7%D8%B6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%A3%D9%88%D9%84.pdf",
+            "https://archive.org/download/Alpala3aAlwadeha2/%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9%20%D8%A7%D9%84%D9%88%D8%A7%D8%B6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.pdf"
+          ],
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "sectionName": "كتب النقد",
+      "content": [
+        {
+          "name": "العمدة في نقد الشعر ومحاسنه",
+          "author": "ابن رشيق القيرواني",
+          "links": [
+            "https://archive.org/download/Omdah_Naqd/Omdah_Naqd_00.pdf",
+            "https://archive.org/download/Omdah_Naqd/Omdah_Naqd_01.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "الوساطة بين المتنبي وخصومه",
+          "author": "القاضي الجرجاني",
+          "links": [
+            "https://archive.org/download/ar114rhet03/%D8%A3%D8%A8%D9%88%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D8%AC%D8%B1%D8%AC%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%88%D8%B3%D8%A7%D8%B7%D8%A9%20%D8%A8%D9%8A%D9%86%20%D8%A7%D9%84%D9%85%D8%AA%D9%86%D8%A8%D9%8A%20%D9%88%D8%AE%D8%B5%D9%88%D9%85%D9%87.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "الموازنة بين الطائيَين",
+          "author": "أبو الحسن اﻵمدي",
+          "links": [
+            "https://archive.org/download/MwshabbuMwshabbu/00_mwshabbu.pdf            ",
+            "https://archive.org/download/MwshabbuMwshabbu/01_mwshabbu.pdf            ",
+            "https://archive.org/download/MwshabbuMwshabbu/01_mwshabbup.pdf            ",
+            "https://archive.org/download/MwshabbuMwshabbu/02_mwshabbu.pdf",
+            "https://archive.org/download/MwshabbuMwshabbu/03_mwshabbu.pdf",
+            "https://archive.org/download/MwshabbuMwshabbu/03_mwshabbup.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "نقد الشعر",
+          "author": "قدامة بن جعفر",
+          "links": [
+            "https://archive.org/download/ar105crit54/%D9%82%D8%AF%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%20%D8%AC%D8%B9%D9%81%D8%B1-%D9%86%D9%82%D8%AF%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1.pdf"
+          ],
+          "status": "available"
+        },
+
+        {
+          "name": "عيار الشعر",
+          "author": "ابن طباطبا العلوي",
+          "links": [
+            "https://archive.org/download/20220101_20220101_2347/%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "طبقات فحول الشعراء",
+          "author": "ابن سلام الجمحي",
+          "links": [
+            "https://archive.org/download/tafosh/tabakat-b.pdf",
+            "https://archive.org/download/tafosh/tabakat-m.pdf",
+            "https://archive.org/download/tafosh/tabakat.pdf",
+            "http://archive.org/details/Tabaqat556-557"
+          ],
+          "status": "available"
+        }
+      ]
+    }
+  ],
+  "Loga": [
+    {
+      "sectionName": "كتب اللغة",
+      "content": [
+        {
+          "name": "النوادر في اللغة",
+          "author": "أبو زيد اﻷنصاري",
+          "links": [
+            "https://archive.org/download/20200928_20200928_1747/%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D9%86%D9%88%D8%A7%D8%AF%D8%B1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D8%A3%D8%A8%D9%8A%20%D8%B2%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A3%D9%86%D8%B5%D8%A7%D8%B1%D9%8A.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "النوادر في اللغة",
+          "author": "أبو مسحل اﻷعرابي",
+          "links": [
+            "https://archive.org/download/ar113lang27/%D8%A3%D8%A8%D9%88%20%D9%85%D8%B3%D8%AD%D9%84%20%D8%A7%D9%84%D8%A3%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D9%86%D9%88%D8%A7%D8%AF%D8%B1.pdf"
+          ],
+          "status": "n-available"
+        },
+
+        {
+          "name": "كتاب اﻷضداد",
+          "author": "أبو بكر بن اﻷنباري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "اﻷضداد في كلام العرب",
+          "author": "أبو الطيب اللغوي",
+          "links": [
+            "https://archive.org/download/0703pdf_201912/0703%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%82%D8%B1%D8%A7%20%D8%A7%D9%88%D9%86%D9%84%D8%A7%D9%8A%D9%86%20%20%20%20pdf%20%20%20%D8%A7%D9%84%D8%A3%D8%B6%D8%AF%D8%A7%D8%AF%20%D9%81%D9%8A%20%D9%83%D9%84%D8%A7%D9%85%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%20%D9%84%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%AF%20%D8%A7%D9%84%D9%84%D8%BA%D9%88%D9%8A%20%D8%A7%D9%84%D8%AD%D9%84%D8%A8%D9%8A.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "إصلاج المنطق",
+          "author": "ابن السكيت",
+          "links": [
+            "https://archive.org/download/simsim4poetry_gmail/%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%20%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "فقه اللغة",
+          "author": "أبو منصور الثعالبي",
+          "links": [
+            "https://archive.org/download/Feqh_Ellogha/%D9%81%D9%82%D9%87%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "المخصص",
+          "author": "ابن سيده اﻷندلسي",
+          "links": [
+            "https://archive.org/download/hm2433/001.pdf",
+            "https://archive.org/download/hm2433/002.pdf",
+            "https://archive.org/download/hm2433/003.pdf",
+            "https://archive.org/download/hm2433/004.pdf",
+            "https://archive.org/download/hm2433/005.pdf"
+          ],
+          "status": "available"
+        }
+      ]
+    }
+  ],
+  "Ma3agim": [
+    {
+      "sectionName": "المعاجم",
+      "content": [
+        {
+          "name": "كتاب العين",
+          "author": "الخليل بن أحمد",
+          "links": [
+            "https://archive.org/download/ar113lang45/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86.rar/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86%20%D8%AC1.pdf",
+            "https://archive.org/download/ar113lang45/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86.rar/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86%20%D8%AC2.pdf",
+            "https://archive.org/download/ar113lang45/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86.rar/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86%20%D8%AC3.pdf",
+            "https://archive.org/download/ar113lang45/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86.rar/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D9%87%D9%8A%D8%AF%D9%8A%20-%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86%20%D8%AC4.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "كتاب البارع",
+          "author": "أبو علي القالي",
+          "links": [
+            "https://archive.org/download/00176_201810/%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%B9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20-%20%D8%A7%D9%84%D9%82%D8%A7%D9%84%D9%8A%20-%20%D8%AA%20%D8%A7%D9%84%D8%B7%D8%B9%D8%A7%D9%86%20%20%20%20%20%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%B5%D9%8A%D8%BA%D9%87%20%D9%85%D8%B5%D9%88%D8%B1%D9%87%20%D8%AF%D8%A7%D8%AE%D9%84%20%D9%85%D9%84%D9%81%20%D8%B2%D9%8A%D8%A8%20%2000176.zip/%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%B9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20-%20%D8%A7%D9%84%D9%82%D8%A7%D9%84%D9%8A%20-%20%D8%AA%20%D8%A7%D9%84%D8%B7%D8%B9%D8%A7%D9%86%2F50743.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "تهذيب اللغة",
+          "author": "أبو منصور اﻷزهري",
+          "links": [
+            "https://archive.org/download/thlogha/thlgh1.pdf",
+            "https://archive.org/download/thlogha/thlgh2.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "جمهرة اللغة",
+          "author": "ابن دريد",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "مقاييس اللغة",
+          "author": "ابن فارس",
+          "links": [
+            "https://archive.org/download/20220809_Makaislugha/%D9%85%D8%B9%D8%AC%D9%85%20%D9%85%D9%82%D8%A7%D9%8A%D9%8A%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%84%D8%A7%D8%A8%D9%86%20%D9%81%D8%A7%D8%B1%D8%B3%20%D9%85%D9%81%D9%87%D8%B1%D8%B3.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "الصحاح",
+          "author": "الجوهري",
+          "links": [
+            "https://archive.org/download/0607pdf_202002/0607%20pdf%20%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD%20%D8%AA%D8%A7%D8%AC%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%88%D8%B5%D8%AD%D8%A7%D8%AD%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20-%20%D8%A7%D9%84%D8%AC%D9%88%D9%87%D8%B1%D9%8A%20%28%20%D8%B7%20%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "لسان العرب",
+          "author": "ابن منظور",
+          "links": [
+            "https://archive.org/download/LissanuAlArab/Lisanalarab00.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab01.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab01p.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab02.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab03.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab04.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab05.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab06.pdf",
+            "https://archive.org/download/LissanuAlArab/Lisanalarab07.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "القاموس المحيط",
+          "author": "الفيروزأبادي",
+          "links": [
+            "https://archive.org/download/bralvi_gmail_20180411_1326/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3%20%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "تاج العروس",
+          "author": "المرتضى الزبيدي",
+          "links": [
+            "https://archive.org/download/taga07_202212/%D8%AA%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B3/taga00.pdf",
+            "https://archive.org/download/taga07_202212/%D8%AA%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B3/taga01.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "أساس البلاغة",
+          "author": "الزمخشري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "المعجم الوجيز",
+          "author": "مجمع اللغة العربية",
+          "links": [
+            "https://archive.org/download/20201215_20201215_1944/%D8%A7%D9%84%D9%85%D8%B9%D8%AC%D9%85%20%D8%A7%D9%84%D9%88%D8%AC%D9%8A%D8%B2%20%D9%85%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9.pdf"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "المعجم الوسيط",
+          "author": "مجمع اللغة العربية",
+          "links": ["https://archive.org/download/Alwasit_201403/Alwasit.pdf"],
+          "status": "available"
+        },
+        {
+          "name": "المعجم الكبير",
+          "author": "مجمع اللغة العربية",
+          "links": [1, 2],
+          "status": "n-available"
+        }
+      ]
+    }
+  ],
+  "She3r": [
+    {
+      "sectionName": "المجموعات الشعرية",
+      "content": [
+        {
+          "name": "المفضليات",
+          "author": "المفضل الضبي",
+          "links": [1, 2, 3, 4, "link"],
+          "status": "n-available"
+        },
+        {
+          "name": "اﻷصمعيات",
+          "author": "عبد الملك بن  قريب اﻷصمعي ",
+          "links": [1],
+          "status": "n-available"
+        },
+        {
+          "name": "جمهرة أشعار العرب",
+          "author": "أبو زيد القرشي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "ديوان الهذليين",
+          "author": "السكري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "الحماسة",
+          "author": "أبو تمام",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "الحماسة الصغرى",
+          "author": "أبو تمام",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "حماسة البحتري",
+          "author": "أبو عبادة البحتري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "حماسة ابن الشجري",
+          "author": "أبو السعادات ابن الشجري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "مختارات شعراء العرب",
+          "author": "أبو السعادات ابن الشجري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "الحماسة البصرية",
+          "author": "صدر الدين البصري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "مختارات البارودي",
+          "author": "محمود سامي البارودي",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح القصائد السبع الطوال",
+          "author": "ابن الأنباري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح المعلقات السبع",
+          "author": "الزوزني",
+          "links": [1, 2],
+          "status": "n-available"
+        }
+      ]
+    }
+  ],
+  "Tragim": [
+    {
+      "sectionName": "تراجم الشعراء",
+      "content": [
+        {
+          "name": "طبقات فحول الشعراء",
+          "author": "ابن سلام الجمحي",
+          "links": [
+            "https://archive.org/download/tafosh/tabakat-b.pdf",
+            "https://archive.org/download/tafosh/tabakat-m.pdf",
+            "https://archive.org/download/tafosh/tabakat.pdf",
+            "http://archive.org/details/Tabaqat556-557"
+          ],
+          "status": "available"
+        },
+        {
+          "name": "الشعر والشعراء",
+          "author": "ابن قتيبة الدينوري",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "المؤتلف والمختتلف",
+          "author": "اﻵمدي",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "معجم الشعراء",
+          "author": "المرزباني",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "يتيمة الدهر",
+          "author": "أبو منصور الثعالبي",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "الذخيرة",
+          "author": "ابن بسام",
+          "links": [1, 2],
+          "status": "n-available"
+        },
+        {
+          "name": "معجم اﻷدباء",
+          "author": "ياقوت الحموي",
+          "links": [1, 2],
+          "status": "n-available"
+        }
+      ]
+    },
+    {
+      "sectionName": "تراجم اللغويين",
+      "content": [
+        {
+          "name": "مراتب النحويين",
+          "author": "أبو الطيب اللغوي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "طبقات النحويين واللغويين",
+          "author": "أبو بكر الزبيدي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "نزهة اﻷلباء",
+          "author": "أبو البركات  اﻷنباري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "إنباه الرواة",
+          "author": "جمال الدين القفطي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "بغية الوعاة",
+          "author": "جلال الدين السيوطي",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    },
+    {
+      "sectionName": "التراجم العامة",
+      "content": [
+        {
+          "name": "الفهرست",
+          "author": "ابن النديم",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "الفهرست",
+          "author": "ابن خير اﻷندلسي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "تاريخ بغداد",
+          "author": "الخطيب البغدادي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "جذوة المقتبس",
+          "author": "أبو عبد الله الحُميدي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "وفيات اﻷعيان",
+          "author": "ابن خلكان",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "كشف الظنون",
+          "author": "حاجي خليفة",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "اﻷعلام",
+          "author": "خير الدين الزركلي",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    }
+  ],
+  "Naho": [
+    {
+      "sectionName": "كتب النحو",
+      "content": [
+        {
+          "name": "الكتاب",
+          "author": "اﻹمام أبو بشر سيبويه",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "مغني اللبيب",
+          "author": "ابن هشام اﻷنصاري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح كافية ابن الحاجب",
+          "author": "الرضي الإستراباذي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "المقتضب",
+          "author": "أبو العباس المبرد",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "رشف الضرب",
+          "author": "أبو حيان اﻷندلسي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "اﻷشباه والنظائر",
+          "author": "جلال الدين السيوطي",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    },
+    {
+      "sectionName": "شروح اﻷلفية",
+      "content": [
+        {
+          "name": "شرح ابن عقيل",
+          "author": "بهاء الدين ابن عقيل",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "أوضح المسالك",
+          "author": "ابن هشام اﻷنصاري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح اﻷشموني",
+          "author": "اﻷشموني",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "المقاصد الشافية",
+          "author": "أبو إسحاق الشاطبي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح ابن الناظم",
+          "author": "بدر الدين ابن مالك",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح المرادي",
+          "author": "ابن أم قاسم المرادي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "البهجة الزكية",
+          "author": "جلال الدين السيوطي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "حاشية الخضري",
+          "author": "الخضري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "حاشية الصبان",
+          "author": "الصبان",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "التصريح بمضمون التوضيح",
+          "author": "خالد اﻷزهري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "متن اﻷلفية",
+          "author": "ابن مالك اﻷندلسي",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    },
+    {
+      "sectionName": "شروح قطر الندى",
+      "content": [
+        {
+          "name": "شرح ابن هشام",
+          "author": "ابن هشام اﻷنصاري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح الفاكهي",
+          "author": "جلال الدين الفاكهي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "حاشية العليمي على الفاكهي",
+          "author": "زين الدين العليمي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "حاشية اﻷلوسي على المؤلف",
+          "author": "اﻷلوسي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "حاشية السجاعي على المؤلف",
+          "author": "محمد السجاعي اﻷزهري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "متن قطرالندى",
+          "author": "ابن هشام اﻷنصاري",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    },
+    {
+      "sectionName": "شروح اﻵجرومية",
+      "content": [
+        {
+          "name": "شرح الشيخ خالد اﻷزهري",
+          "author": "خالد اﻷزهري",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "التحفة السنية",
+          "author": "محمد محيي الدين عبد الحميد",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "حاشية أبي النجا",
+          "author": "أبو النجا",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "شرح زيني دحلان",
+          "author": "زيني دحلان",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "متن اﻵجرومية",
+          "author": "ابن آجروم",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    },
+    {
+      "sectionName": "كتب الصرف",
+      "content": [
+        {
+          "name": "شرح شافية ابن الحاجب",
+          "author": "الرضي الإستراباذي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "التصريف الملوكي",
+          "author": "أبو الفتح ابن جني",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "المغني في الصرف",
+          "author": "ابن عصفور اﻷندلسي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "شذا العرف",
+          "author": "الحملاوي",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "متن بناء اﻷفعال",
+          "author": "مجهول",
+          "links": [],
+          "status": "n-available"
+        },
+        {
+          "name": "التصريف العزي",
+          "author": "عز الدين",
+          "links": [],
+          "status": "n-available"
+        }
+      ]
+    }
+  ]
+}

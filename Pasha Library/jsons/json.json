@@ -1,0 +1,754 @@
+{
+  "Aaroudh": [
+    {
+      "name": "",
+      "author": "",
+      "links": [],
+      "status": "available"
+    },
+    {
+      "name": "",
+      "author": "",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "",
+      "author": "",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "",
+      "author": "",
+      "links": [],
+      "status": "available"
+    },
+    {
+      "name": "",
+      "author": "",
+      "links": [],
+      "status": "available"
+    },
+    {
+      "name": "",
+      "author": "",
+      "links": [],
+      "status": "available"
+    }
+  ],
+  "Adab": [
+    {
+      "name": "كتاب الحيوان",
+      "author": "أبو عمرو الجاحظ",
+      "links": [1, 2, 3, 4, 5, 6, 7],
+      "status": "n-available"
+    },
+    {
+      "name": "البيان والتبيين",
+      "author": "أبو عمرو الجاحظ",
+      "links": [1, 2, 3, 4],
+      "status": "n-available"
+    },
+    {
+      "name": "الكامل في اللغة واﻷدب",
+      "author": "أبو العباس المبرد",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "عيون اﻷخبار",
+      "author": "ابن قتيبة الدينوري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "العقد الفريد",
+      "author": "ابن  عبد ربه الأندلسي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "كتاب اﻷمالي",
+      "author": "أبو علي القالي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "كتاب النوادر",
+      "author": "أبو علي القالي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "كتاب اﻷغاني",
+      "author": "أبو الفرج اﻷصفهاني",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "زهر اﻵداب",
+      "author": "الحصري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "نهاية اﻷرب",
+      "author": "النويري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "صبح اﻷعشى",
+      "author": "القلقشندي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "نفح الطيب",
+      "author": "المقري",
+      "links": [1, 2],
+      "status": "n-available"
+    }
+  ],
+  "Balaga-Naqd": {
+    "Balaga": [
+      {
+        "name": "دلائل اﻹعجاز",
+        "author": "اﻹمام عبد القاهر الجرجاني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "أسرار البلاغة",
+        "author": "اﻹمام عبد القاهر الجرجاني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "مفتاح العلوم",
+        "author": "أبو بعقوب السكاكي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "تلخيص المفتاح",
+        "author": "الخطيب القزويني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "اﻹيضاح شرح تلخيص المفتاح",
+        "author": "الخطيب القزويني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "المطول شرح التلخيص",
+        "author": "سعد الدين التفتازاني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "عروس اﻷفراح شرح التلخيص",
+        "author": "بهاء الدين السبكي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "الطراز شرح التلخيص",
+        "author": "العلوي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "مجموع شروح التلخيص",
+        "author": "مجموعة مؤلفين",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "البلاغة الواضحة مع دليلها",
+        "author": "علي الجارم ومصطفى أمين",
+        "links": [],
+        "status": "n-available"
+      }
+    ],
+    "Naqd": [
+      {
+        "name": "العمدة في نقد الشعر ومحاسنه",
+        "author": "ابن رشيق القيرواني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "الوساطة بين المتنبي وخصومه",
+        "author": "القاضي الجرجاني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "الموازنة بين الطائيَين",
+        "author": "أبو الحسن اﻵمدي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "نقد الشعر",
+        "author": "قدامة بن جعفر",
+        "links": [],
+        "status": "n-available"
+      },
+
+      {
+        "name": "عيار الشعر",
+        "author": "ابن طباطبا العلوي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "طبقات الشعراء",
+        "author": "ابن سلام الجمحي",
+        "links": [],
+        "status": "n-available"
+      }
+    ]
+  },
+  "Loga": [
+    {
+      "name": "النوادر في اللغة",
+      "author": "أبو زيد اﻷنصاري",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "النوادر في اللغة",
+      "author": "أبو مسحل اﻷعرابي",
+      "links": [],
+      "status": "n-available"
+    },
+
+    {
+      "name": "كتاب اﻷضداد",
+      "author": "أبو بكر بن اﻷنباري",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "اﻷضداد في كلام العرب",
+      "author": "أبو الطيب اللغوي",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "إصلاج المنطق",
+      "author": "ابن السكيت",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "فقه اللغة",
+      "author": "أبو منصور الثعالبي",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "المخصص",
+      "author": "ابن سيده اﻷندلسي",
+      "links": [],
+      "status": "n-available"
+    }
+  ],
+  "Ma3agim": [
+    {
+      "name": "كتاب العين",
+      "author": "الخليل بن أحمد",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "كتاب البارع",
+      "author": "أبو علي القالي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "تهذيب اللغة",
+      "author": "أبو منصور اﻷزهري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "جمهرة اللغة",
+      "author": "ابن دريد",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "مقاييس اللغة",
+      "author": "ابن فارس",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "الصحاح",
+      "author": "الجوهري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "لسان العرب",
+      "author": "ابن منظور",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "القاموس المحيط",
+      "author": "الفيروزأبادي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "تاج العروس",
+      "author": "المرتضى الزبيدي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "أساس البلاغة",
+      "author": "الزمخشري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "المعجم الوجيز",
+      "author": "مجمع اللغة العربية",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "المعجم الوسيط",
+      "author": "مجمع اللغة العربية",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "المعجم الكبير",
+      "author": "مجمع اللغة العربية",
+      "links": [1, 2],
+      "status": "n-available"
+    }
+  ],
+  "She3r": [
+    {
+      "name": "المفضليات",
+      "author": "المفضل الضبي",
+      "links": [1, 2, 3, 4],
+      "status": "n-available"
+    },
+    {
+      "name": "اﻷصمعيات",
+      "author": "عبد الملك بن  قريب اﻷصمعي ",
+      "links": [1],
+      "status": "n-available"
+    },
+    {
+      "name": "جمهرة أشعار العرب",
+      "author": "أبو زيد القرشي",
+      "links": [],
+      "status": "n-available"
+    },
+    {
+      "name": "ديوان الهذليين",
+      "author": "السكري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "الحماسة",
+      "author": "أبو تمام",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "الحماسة الصغرى",
+      "author": "أبو تمام",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "حماسة البحتري",
+      "author": "أبو عبادة البحتري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "حماسة ابن الشجري",
+      "author": "أبو السعادات ابن الشجري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "مختارات شعراء العرب",
+      "author": "أبو السعادات ابن الشجري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "الحماسة البصرية",
+      "author": "صدر الدين البصري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "مختارات البارودي",
+      "author": "محمود سامي البارودي",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "شرح القصائد السبع الطوال",
+      "author": "ابن الأنباري",
+      "links": [1, 2],
+      "status": "n-available"
+    },
+    {
+      "name": "شرح المعلقات السبع",
+      "author": "الزوزني",
+      "links": [1, 2],
+      "status": "n-available"
+    }
+  ],
+  "Tragim": {
+    "Tragim-she3r": [
+      {
+        "name": "طبقات الشعراء",
+        "author": "ابن سلام الجمحي",
+        "links": [1, 2],
+        "status": "n-available"
+      },
+      {
+        "name": "الشعر والشعراء",
+        "author": "ابن قتيبة الدينوري",
+        "links": [1, 2],
+        "status": "n-available"
+      },
+      {
+        "name": "المؤتلف والمختتلف",
+        "author": "اﻵمدي",
+        "links": [1, 2],
+        "status": "n-available"
+      },
+      {
+        "name": "معجم الشعراء",
+        "author": "المرزباني",
+        "links": [1, 2],
+        "status": "n-available"
+      },
+      {
+        "name": "يتيمة الدهر",
+        "author": "أبو منصور الثعالبي",
+        "links": [1, 2],
+        "status": "n-available"
+      },
+      {
+        "name": "الذخيرة",
+        "author": "ابن بسام",
+        "links": [1, 2],
+        "status": "n-available"
+      },
+      {
+        "name": "معجم اﻷدباء",
+        "author": "ياقوت الحموي",
+        "links": [1, 2],
+        "status": "n-available"
+      }
+    ],
+    "Tragim-loga": [
+      {
+        "name": "مراتب النحويين",
+        "author": "أبو الطيب اللغوي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "طبقات النحويين واللغويين",
+        "author": "أبو بكر الزبيدي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "نزهة اﻷلباء",
+        "author": "أبو البركات  اﻷنباري",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "إنباه الرواة",
+        "author": "جمال الدين القفطي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "بغية الوعاة",
+        "author": "جلال الدين السيوطي",
+        "links": [],
+        "status": "n-available"
+      }
+    ],
+    "Tragim-general": [
+      {
+        "name": "الفهرست",
+        "author": "ابن النديم",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "الفهرست",
+        "author": "ابن خير اﻷندلسي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "تاريخ بغداد",
+        "author": "الخطيب البغدادي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "جذوة المقتبس",
+        "author": "أبو عبد الله الحُميدي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "وفيات اﻷعيان",
+        "author": "ابن خلكان",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "كشف الظنون",
+        "author": "حاجي خليفة",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "اﻷعلام",
+        "author": "خير الدين الزركلي",
+        "links": [],
+        "status": "n-available"
+      }
+    ]
+  },
+  "Naho-Sarf": {
+    "General": [
+      {
+        "name": "الكتاب",
+        "author": "اﻹمام أبو بشر سيبويه",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "مغني اللبيب",
+        "author": "ابن هشام اﻷنصاري",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "شرح كافية ابن الحاجب",
+        "author": "الرضي الإستراباذي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "المقتضب",
+        "author": "أبو العباس المبرد",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "رشف الضرب",
+        "author": "أبو حيان اﻷندلسي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "اﻷشباه والنظائر",
+        "author": "جلال الدين السيوطي",
+        "links": [],
+        "status": "n-available"
+      }
+    ],
+    "Alfiya": [
+      {
+        "name": "شرح ابن عقيل",
+        "author": "بهاء الدين ابن عقيل",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "أوضح المسالك",
+        "author": "ابن هشام اﻷنصاري",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "شرح اﻷشموني",
+        "author": "اﻷشموني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "المقاصد الشافية",
+        "author": "أبو إسحاق الشاطبي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "شرح ابن الناظم",
+        "author": "بدر الدين ابن مالك",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "شرح المرادي",
+        "author": "ابن أم قاسم المرادي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "البهجة الزكية",
+        "author": "جلال الدين السيوطي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "حاشية الخضري",
+        "author": "الخضري",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "حاشية الصبان",
+        "author": "الصبان",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "التصريح بمضمون التوضيح",
+        "author": "خالد اﻷزهري",
+        "links": [],
+        "status": "n-available"
+      }
+    ],
+    "Qatr": [
+      {
+        "name": "شرح ابن هشام",
+        "author": "ابن هشام اﻷنصاري",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "شرح الفاكهي",
+        "author": "جلال الدين الفاكهي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "حاشية العليمي على الفاكهي",
+        "author": "زين الدين العليمي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "حاشية اﻷلوسي على المؤلف",
+        "author": "اﻷلوسي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "حاشية السجاعي على المؤلف",
+        "author": "محمد السجاعي اﻷزهري",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "متن الكتاب",
+        "author": "ابن هشام اﻷنصاري",
+        "links": [],
+        "status": "n-available"
+      }
+    ],
+    "Agromiya": [
+      {
+        "name": "شرح الشيخ خالد اﻷزهري",
+        "author": "خالد اﻷزهري",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "التحفة السنية",
+        "author": "محمد محيي الدين عبد الحميد",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "حاشية أبي النجا",
+        "author": "أبو النجا",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "شرح زيني دحلان",
+        "author": "زيني دحلان",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "متن الكتاب",
+        "author": "ابن آجروم",
+        "links": [],
+        "status": "n-available"
+      }
+    ],
+    "Sarf": [
+      {
+        "name": "شرح شافية ابن الحاجب",
+        "author": "الرضي الإستراباذي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "التصريف الملوكي",
+        "author": "أبو الفتح ابن جني",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "المغني في الصرف",
+        "author": "ابن عصفور اﻷندلسي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "شذا العرف",
+        "author": "الحملاوي",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "متن بناء اﻷفعال",
+        "author": "",
+        "links": [],
+        "status": "n-available"
+      },
+      {
+        "name": "التصريف العزي",
+        "author": "عز الدين",
+        "links": [],
+        "status": "n-available"
+      }
+    ]
+  }
+}

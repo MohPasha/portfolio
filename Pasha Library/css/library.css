@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Lateef:wght@400;700&family=Reem+Kufi:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900;1000&family=Lateef:wght@400;700&family=Reem+Kufi:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  transition: width none;
+  transition: height none;
+}
+html {
+  direction: rtl;
+  font-family: "Cairo", serif;
+}
+.container {
+  width: 75%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .container {
+    width: 85%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 993px) {
+  .container {
+    width: 950px;
+  }
+}
+body {
+  height: 100vh;
+}
+/* Header Starts */
+header {
+  position: relative;
+  z-index: 3;
+}
+
+header #night-switcher {
+  font-size: 1.5rem;
+  background-color: var(--text-color);
+  color: var(--back-color);
+  width: 1.2em;
+  height: 1.2em;
+  cursor: pointer;
+  z-index: 100;
+}
+header #night-switcher:hover {
+  color: var(--main-color);
+  transition: 0.5s;
+}
+header .container img {
+  width: 2em;
+}
+
+header .container ul {
+  position: fixed;
+  z-index: 1000;
+  left: 0em;
+  top: -100vh;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--back-color);
+  border-radius: 0 0 0.4em 0.3em;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+header .container ul.view {
+  top: 0;
+}
+header .container ul li {
+  flex-basis: 8%;
+  display: block;
+  transition: 0.5s;
+  overflow: hidden;
+  width: 100%;
+}
+header .container ul li.active {
+  background-color: var(--main-color);
+}
+header .container ul li.active a {
+  color: var(--back-color);
+}
+header .container ul li a {
+  width: 100%;
+  height: 100%;
+  padding: 0.7em 1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+header .container ul li:not(.active):hover {
+  background-color: #d4d4d4;
+  padding-right: 1.5em;
+}
+header .container ul li a:hover {
+  padding-right: 1em;
+  transition: 0.5s;
+}
+header .container .close {
+  top: 01em;
+  left: 01em;
+  cursor: pointer;
+  transition: color 0.2s;
+  z-index: 10000;
+  font-size: 2rem;
+}
+header .container .close:hover {
+  color: var(--main-color-alt);
+}
+header .container .more {
+  cursor: pointer;
+  z-index: 90;
+  font-size: 1.5rem;
+  margin-left: 0.3em;
+}
+header .container .more:hover {
+  color: var(--main-color);
+  transition: 0.2s;
+}
+/* Header Ends */
+/* Main Starts */
+main {
+  position: relative;
+  height: fit-content;
+  min-height: calc(100vh - 7.3em);
+  padding-bottom: 3em;
+}
+main .about {
+  min-height: 13em;
+  height: fit-content;
+  background: url(../pics/background.jpg);
+  background-size: cover;
+  margin-top: 0.4em;
+  color: white;
+}
+
+main .about div div {
+  line-height: 1.6;
+}
+main .about::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.514);
+  /* z-index: 1; */
+}
+main .about p {
+  color: var(--main-color-alt);
+  font-size: 0.7rem;
+}
+main .sections section {
+  border-radius: 0.3em;
+}
+main .sections .btn {
+  padding: 0.3em 0.7em;
+  border-radius: 0.2em;
+  cursor: pointer;
+  background-color: var(--main-color-alt);
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: white;
+}
+main .sections .btn:hover {
+  background-color: var(--main-color);
+  transition: 0.5s;
+}
+.contact {
+  width: 100%;
+  margin-top: 1em;
+  padding: 0.5em 0;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+.contact .container {
+  flex-wrap: wrap;
+}
+.contact .text {
+  width: fit-content;
+  margin: 0 auto 0.5em;
+}
+.contact .icons {
+  margin: auto;
+}
+.contact .icons i {
+  height: 1.5em;
+  width: 1.5em;
+  font-size: 0.8rem;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 0.2em;
+}
+.contact .icons i:hover {
+  background-color: var(--main-color-alt);
+  transition: 0.5s;
+}
+/* Main Ends */
+.page {
+  min-height: calc(100vh - 7.9em);
+}
+.container .card .text {
+  border-left: 2px solid var(--main-color-alt);
+  flex-grow: 1;
+  margin-left: 1em;
+}
+.links .content {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5em;
+}
