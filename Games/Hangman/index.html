@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" style="direction: rtl;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة المشنقة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="arabic">
+    <div class="container">
+        <header>
+            <div class="name">لعبة المشنقة</div>
+            <div class="category">القسم: <span></span></div>
+        </header>
+
+        <div class="wordshow">
+        </div>
+        <main>
+            <div class="row draw">
+                <div class="stand"></div>
+                <div class="hold-1"></div>
+                <div class="hold-2"></div>
+                <div class="rope"></div>
+                <div class="head"></div>
+                <div class="body"></div>
+                <div class="hands"></div>
+                <div class="legs"></div>
+            </div>
+            <div class="row letters">
+                <div class="content">
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="message" style="display: none;">
+        <h3></h3>
+        <span>العب مجددا</span>
+    </div>
+    <a class="switch-lang" href="en.html">
+        <i class="fas fa-language"></i>
+    </a>
+    <div class="pashaProfile">
+        <div class="content">
+            <i class="fas fa-times close"></i>
+            <h3 class="box-h3">تطوير: <span>أبي جعفر </span><span>غفر الله له</span></h3>
+            <p class="box-p">11/02/1445</p>
+            <h4>التقنيات المستخدمة:</h4>
+            <div class="skills">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Javascript</span>
+                <span>Font Awesome</span>
+            </div>
+            <a href="https://mohpasha.github.io/portfolio/">معرض أعمالنا <i class="fas fa-external-link"></i></a>
+        </div>
+    </div>
+    <i class="far fa-user open" id="openpashaProfile"></i>
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/failure.mp3" preload="auto"></audio>
+    <audio id="win" src="audio/win.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Lateef:wght@400;700&family=Reem+Kufi:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900;1000&family=Lateef:wght@400;700&family=Reem+Kufi:wght@400;700&display=swap");
+/* start global rules */
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+:root {
+  --transition-delay: 0.5s;
+  --main-color: #00adb5;
+  --main-color-alt: #ff2e63;
+  --second-color: #393e46;
+  --main-pad-mar: 4em;
+  --background-color: #f0eded;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f4f4f4;
+}
+body#arabic {
+  font-family: "Cairo", serif;
+}
+
+body#arabic {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 75%;
+  margin: 1em auto;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 993px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Header */
+header {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+header .name {
+  font-weight: bold;
+  color: var(--main-color);
+}
+header .category span {
+  font-weight: bold;
+  color: var(--main-color-alt);
+  text-transform: capitalize;
+}
+/* Wordshow */
+.wordshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+.wordshow span {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+  background-color: #ffffffd0;
+  text-transform: uppercase;
+  color: var(--main-color-alt);
+  border-bottom: 2px solid var(--main-color);
+}
+.wordshow span.success {
+  color: var(--main-color);
+}
+.wordshow span.space {
+  background: none;
+  border: none;
+  /* content: "-"; */
+  position: relative;
+}
+.wordshow span.space::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* main */
+main {
+  display: flex;
+  align-items: normal;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+main .row {
+  flex: 1;
+  min-width: 250px;
+  min-height: 300px;
+  background-color: white;
+  flex: 1;
+  position: relative;
+}
+
+main .draw .stand {
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  height: 250px;
+  bottom: 0;
+  left: 70px;
+}
+main .draw .hold-1 {
+  position: absolute;
+  background-color: #222;
+  width: 120px;
+  height: 4px;
+  bottom: 250px;
+  left: 70px;
+}
+main .draw .hold-2 {
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  height: 60px;
+  bottom: 194px;
+  left: 190px;
+}
+main .draw .rope {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 4px dotted #222;
+  border-radius: 50%;
+  left: 165px;
+  bottom: 150px;
+}
+main .draw .head {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #222;
+  border-radius: 50%;
+  left: 170px;
+  bottom: 155px;
+}
+
+main .draw .body {
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  height: 100px;
+  bottom: 58px;
+  left: 190px;
+}
+
+main .draw .hands::before {
+  content: "";
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  height: 40px;
+  bottom: 98px;
+  left: 175px;
+  transform: rotate(50deg);
+}
+main .draw .hands::after {
+  content: "";
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  height: 40px;
+  bottom: 98px;
+  left: 205px;
+  transform: rotate(-50deg);
+}
+main .draw .legs::before {
+  content: "";
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  height: 40px;
+  bottom: 28px;
+  left: 175px;
+  transform: rotate(50deg);
+}
+main .draw .legs::after {
+  content: "";
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  height: 40px;
+  bottom: 28px;
+  left: 205px;
+  transform: rotate(-50deg);
+}
+main .draw > div {
+  visibility: hidden;
+}
+main .draw.wrong-1 {
+  border-bottom: 4px solid #222;
+}
+main .draw.wrong-2 .stand,
+main .draw.wrong-3 .hold-1,
+main .draw.wrong-4 .hold-2,
+main .draw.wrong-5 .rope,
+main .draw.wrong-6 .head,
+main .draw.wrong-7 .body,
+main .draw.wrong-8 .hands,
+main .draw.wrong-9 .legs {
+  visibility: visible;
+}
+main .letters .content {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+main .letters .content span {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.2em;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  main .letters .content span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+main .letters .content span.clicked {
+  pointer-events: none;
+  background-color: #24cad38e;
+}
+
+.message {
+  text-align: center;
+}
+
+.message h3 {
+  color: var(--main-color);
+  font-size: 3rem;
+}
+
+.message span {
+  display: block;
+  width: fit-content;
+  background-color: var(--main-color);
+  color: #fff;
+  font-weight: bold;
+  padding: 0.3em 0.5em;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.message span:hover {
+  transition: 0.3s;
+  background-color: var(--main-color-alt);
+}
+
+.switch-lang {
+  color: var(--main-color);
+  font-size: 2.5rem;
+  background-color: #f4f4f4;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
+    0px 2px 4px 0px rgb(0 0 0 / 12%);
+  /* padding: 0.5em; */
+}
+/* pashaProfile */
+.open {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252a34;
+  color: #08d9d6;
+  border: 2px solid #08d9d6;
+  border-radius: 50%;
+  z-index: 10000;
+  opacity: 0.5;
+}
+.open:hover {
+  color: #ff2e63;
+  border-color: #ff2e63;
+  transition: 0.5s;
+}
+.pashaProfile {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #252a348e;
+  transition: all 0.5s;
+  z-index: -1000;
+  display: grid;
+  place-items: center;
+  transform: translateY(30%);
+  opacity: 0;
+}
+.pashaProfile.show {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 1000;
+}
+.pashaProfile.show + .open {
+  opacity: 1;
+}
+.pashaProfile .content {
+  position: relative;
+  min-width: 70%;
+  max-width: 90%;
+  background-color: #000000ec;
+  color: white;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 4px 1px #0000009d;
+  padding: 1em;
+}
+.pashaProfile .close {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  cursor: pointer;
+}
+.pashaProfile .close:hover {
+  color: #ff2e63;
+  transition: 0.2s;
+}
+.pashaProfile h3 span:first-of-type {
+  color: #08d9d6;
+}
+.pashaProfile h3 span:last-of-type {
+  color: #ff2e63;
+}
+#arabic .pashaProfile .box-h3,
+#arabic .pashaProfile .box-p {
+  position: relative;
+  width: fit-content;
+  padding-right: 25px;
+  margin-bottom: 0.5em;
+}
+#arabic .pashaProfile .box-h3::before,
+#arabic .pashaProfile .box-p::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+#english .pashaProfile .box-h3,
+#english .pashaProfile .box-p {
+  position: relative;
+  width: fit-content;
+  padding-left: 15px;
+  margin-bottom: 0.5em;
+}
+#english .pashaProfile .box-h3::before,
+#english .pashaProfile .box-p::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0px;
+}
+.pashaProfile .box-h3::before {
+  background-color: #08d9d6;
+}
+.pashaProfile .box-p::before {
+  background-color: #777;
+}
+.pashaProfile .skills {
+  margin-top: 0.5em;
+  font-size: 0.7rem;
+  padding: 0em 0.5em 1em;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+.pashaProfile .skills span {
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  background-color: #08d9d6;
+  border-radius: 0.4em;
+  width: fit-content;
+  display: inline-block;
+}
+
+.pashaProfile a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: fit-content;
+  padding: 0.5em;
+  margin: 01em auto 0;
+  font-weight: bold;
+  background-color: #ff2e63;
+  border-radius: 0.4em;
+}
+.pashaProfile a:hover {
+  background-color: #08d9d6;
+  transition: 0.5s;
+}
