@@ -4,7 +4,7 @@ let allWords;
 
 // set words and letter by laguage
 if (document.body.id === "arabic") {
-  letters = "أإابتثجحخدذرزسشصضطظعغفقكلمنهةوي";
+  letters = "أإابتثجحخدذرزسشصضطظعغفقكلمنهةويئ";
   // Set Words
   allWords = {
     تطبيقات: [
@@ -26,7 +26,7 @@ if (document.body.id === "arabic") {
       "لامبورجيني",
       "فورد",
       "ليكزس",
-      "رولز رويس",
+      "رولزرويس",
       "كيا",
     ],
     دول: [
