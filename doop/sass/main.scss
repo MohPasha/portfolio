@@ -1,0 +1,104 @@
+// Global rules
+@use "./global";
+
+// Mixins
+@use "./mixin" as *;
+
+// Variables
+@use "./variables" as *;
+
+// Header Section
+@use "./pages/header";
+
+// Landing Section
+@use "./pages/landing";
+
+// Services Section
+@use "./pages/services";
+
+// About Section
+@use "./pages/about";
+
+// Portfolio Section
+@use "./pages/portfolio";
+
+// Blogs Section
+@use "./pages/blogs";
+
+// Contact Section
+@use "./pages/contact";
+
+// Footer
+@use "./pages/footer";
+
+// Welcome Message
+.welcome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.404);
+  z-index: 100000000000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  * {
+    color: white;
+  }
+  .container {
+    position: relative;
+    @extend %container;
+    background-color: $text-color;
+    padding: 1em 1em 0.5em;
+    h2 {
+      width: fit-content;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 90%;
+        height: 4px;
+        background-color: $main-color;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    .link {
+      @extend %flex-space-center;
+      h3 {
+        position: relative;
+        padding-left: 30px;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 15px;
+          height: 4px;
+          background-color: $main-color;
+          top: 50%;
+          left: 15px;
+          transform: translate(-50%, -50%);
+        }
+      }
+      a {
+        @extend %main-button;
+        font-size: 0.7rem;
+      }
+    }
+    .close {
+      @extend %main-button;
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      font-size: 0.8rem;
+    }
+    p {
+      @extend %paragraph;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+  }
+}

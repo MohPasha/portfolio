@@ -1,0 +1,50 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.contact {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  .container {
+    @extend %container;
+    h3 {
+      color: $main-color;
+      margin: 0;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    form {
+      .title {
+        @extend %flex-space-center;
+        gap: 1em;
+        input {
+          flex: 1;
+        }
+      }
+      textarea,
+      input {
+        color: $text-color;
+        caret-color: $text-color;
+        outline: none;
+        border: none;
+        background-color: rgba(91, 121, 218, 0.096);
+        padding: 0.5em;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      textarea {
+        width: 100%;
+        height: 10em;
+        margin: 1em 0;
+        resize: none;
+      }
+      button {
+        @extend %main-button;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+}

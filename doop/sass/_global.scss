@@ -1,0 +1,21 @@
+@use "./variables" as *;
+@use "./mixin" as *;
+* {
+  box-sizing: border-box;
+  color: $text-color;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

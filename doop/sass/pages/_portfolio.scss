@@ -1,0 +1,44 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.portfolio {
+  position: relative;
+  .container {
+    @extend %container;
+    .text {
+      @extend %flex-space-center;
+      .arrows {
+        @extend %arrows;
+      }
+    }
+    .gallery {
+      @extend %grid-3-c;
+      gap: 1em;
+      img {
+        max-width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.103);
+      }
+    }
+    .more {
+      display: block;
+      text-align: center;
+      padding: 0.5em;
+      width: fit-content;
+      margin: 1em auto;
+      font-weight: bold;
+
+      color: $main-color;
+      &:hover {
+        color: $second-color;
+        transition: $main-transition;
+      }
+    }
+  }
+  .back-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 50%;
+    z-index: -10000;
+  }
+}
