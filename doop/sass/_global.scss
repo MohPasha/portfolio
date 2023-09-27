@@ -1,0 +1,36 @@
+@use "./variables" as *;
+@use "./mixin" as *;
+* {
+  box-sizing: border-box;
+  color: $text-color;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $text-color;
+}
+* {
+  scrollbar-width: 0.5em;
+  scrollbar-track-color: white;
+  scrollbar-color: $text-color;
+}

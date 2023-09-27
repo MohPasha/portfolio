@@ -1,0 +1,67 @@
+@use "./mixin" as *;
+$main-color: #ff003b;
+$text-color: #503b91;
+$second-color: #ff003c46;
+$back-color: #ffffff;
+$back-color-alt: #eaeaeaa4;
+$shadow-color: #e4e4e4;
+$main-transition: 0.5s;
+$card-back-color: #f5f5f5dc;
+$grey-back: #ebebebe5;
+
+// Placeholders
+%flex-space-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%container {
+  margin: auto;
+  @include breakpoints(mobile) {
+    width: 85%;
+  }
+  @include breakpoints(small) {
+    width: 700px;
+  }
+  @include breakpoints(medium) {
+    width: 950px;
+  }
+  @include breakpoints(large) {
+    width: 1100px;
+  }
+}
+
+%main-button {
+  background-color: $main-color;
+  color: white;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  border-radius: 1em;
+  cursor: pointer;
+  &:hover {
+    background-color: $second-color;
+    transition: $main-transition;
+  }
+}
+
+%paragraph {
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+%arrows {
+  .left {
+    opacity: 0.5;
+  }
+  i {
+    cursor: pointer;
+  }
+}
+
+%grid-3-c {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
